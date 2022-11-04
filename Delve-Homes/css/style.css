@@ -105,6 +105,21 @@ main {
     border: solid 1px black;
 }
 
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    font-size: 35px;
+}
+
+.item06 {
+    padding: 2em;
+}
+
+
+
 .item01,
 .item02,
 .item03,
@@ -113,19 +128,18 @@ main {
 .item06 {
     height: 500px;
     width: 100%;
-    display: table-row;
-    justify-content: center;
     background-color: rgb(240, 229, 229);
-    font-size: larger;
+    font-size: x-large;
 }
 
 footer {
+    height: 20vw;
     width: 100vw;
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
-    
+    font-size: xx-large;
 }
 
 .footer-content {
